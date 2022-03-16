@@ -1,0 +1,172 @@
+p { color: black; font-family: Verdana; }
+
+/* Por organizacion, puse el estilo del nav en primer lugar. */
+nav {
+  float: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 70px;
+  padding: 8px 0;
+  font-size: 30px;
+}
+
+nav ul li a {
+  text-decoration:none;
+  background: #7E7C7E;
+  color: #241E24;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration:line-through;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 1%;
+  background: #94198A;
+  height: 10px;
+  transition: width 0.5s;
+}
+
+nav ul li a:hover::before {
+  width: 8%;
+}
+
+/* Estos son las configuraciones de estilos para las tablas */
+
+table {
+   border-collapse: collapse;
+   border: 2px solid #ccc;
+ }
+
+ td,
+ th {
+   padding: 10px;
+ }
+
+  th {
+    background: #7E0808;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: 5px solid #7E0808;
+    color: #333;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+/* Depues puse los estilo (ids y class) segun el orden en que van en el html */
+
+a {
+  background: #7E0808;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titulo {
+  font-size: 75px;
+  color: white;
+}
+
+.info {
+  font-size: 30px;
+  color: #A45552;
+}
+
+.texto1{
+  font-family: monospace;
+  color: #3F4645;
+  font-size: 30px;
+}
+
+.texto2 {
+  background-color: #A8ABAB;
+  color: #FF0000;
+  font-size: 25px;
+}
+
+.texto3 {
+  background-color: #A2FAF1;
+  color: #3F4645;
+  font-size: 25px;
+}
+
+body {
+  background-color: #6CC9BF;
+}
+
+/* aqui use muchos ids */
+#Temas {
+  font-size: 30px;
+}
+
+#Primero {
+  color: #FF0000;
+}
+
+#Segundo {
+  color: #EDFF00;
+}
+
+#Tercero {
+  color: #1BFF00;
+}
+
+#Cuarto {
+  color: #00F2FF;
+}
+
+#Quinto {
+  color: #000EFF;
+}
+
+#Sexto {
+  color: #FF00EC;
+}
+
+/* el css de los divs y section */
+div {
+  padding: 1% 0;
+  border-style: solid;
+  border-top-color: #7B7979;
+  border-right-color: #7B7979;
+  border-bottom-color: #7B7979;
+  border-left-color: #7B7979;
+
+}
+
+#caec1 p{
+  color: #820D09;
+  margin-left: 100px;
+  float: left;
+  font-size: 25px;
+
+}
+
+#caec1 img{
+  margin-left: 50px;
+  height: 400px;
+  width: 400px;
+}
+
+#caec2 p{
+  color: #820D09;
+  margin-left: 100px;
+  float: right;
+  font-size: 24px;
+
+}
+
+#caec2 img{
+  margin-left: 50px;
+  height: 400px;
+  width: 400px;
+}
